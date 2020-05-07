@@ -1,0 +1,32 @@
+Console.WriteLine("- or + ");
+            string s = Console.ReadLine();
+            if (s == "-")
+            {
+                Console.WriteLine("first number");
+                string input1 = Console.ReadLine();
+
+                int Iinput1 = Int32.Parse(input1);
+                Console.WriteLine("second number"); 
+                string input2 = Console.ReadLine();
+                int Iinput2 = Int32.Parse(input2);
+
+
+                Console.WriteLine(Iinput1 - Iinput2);
+            }
+
+
+
+
+            else
+            {
+                Console.WriteLine("first number");
+                string input1p = Console.ReadLine();
+
+                int Iinput1p = Int32.Parse(input1p);
+                Console.WriteLine("second number");
+                string input2p = Console.ReadLine();
+                int Iinput2p = Int32.Parse(input2p);
+
+
+                Console.WriteLine(Iinput1p + Iinput2p);
+            }
